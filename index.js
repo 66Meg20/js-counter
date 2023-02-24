@@ -1,26 +1,29 @@
-//let counter = 0;
-//function count() {
-//  counter++;
-// document.getElementById("number").innerHTML = counter;
-//}
+function upBtn() {
+  let number = document.querySelector("#number");
+  let value = number.innerHTML;
+  ++value;
+  document.querySelector("#number").innerHTML = value;
+}
+function downBtn() {
+  let number = document.querySelector("#number");
+  let value = number.innerHTML;
+  --value;
+  document.querySelector("#number").innerHTML = value;
+}
 
-//document.addEventListener("DOMContentLoaded", function () {
-// document.getElementById("up-btn").onclick = count;
+//let add = document.querySelector("#up-btn");
+//let subract = document.querySelector("#down-btn");
+
+//add.addEventListener("click", function () {
+//let output = document.querySelector("#number");
+//let result = Number(output.innerHTML) + 1;
+
+// output.innerHTML = result;
 //});
 
-let add = document.querySelector("#up-btn");
-let subract = document.querySelector("#down-btn");
+//subract.addEventListener("click", function () {
+//let output = document.querySelector("#number");
+//let result = Number(output.innerText) - 1;
 
-add.addEventListener("click", function () {
-  let output = document.querySelector("#number");
-  let result = Number(output.innerHTML) + 1;
-
-  output.innerText = result;
-});
-
-subract.addEventListener("click", function () {
-  let output = document.querySelector("#number");
-  let result = Number(output.innerText) - 1;
-
-  output.innerText = result;
-});
+//output.innerHTML = result;
+//});
