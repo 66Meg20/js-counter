@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  margin-top: 350px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid blue;
+  background-color: aqua;
+}
+
+.container {
+  border-radius: 8px;
+  border: 1px solid blue;
+  padding: 25px;
+}
