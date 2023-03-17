@@ -3,7 +3,7 @@ body {
   margin-top: 350px;
   background-image: url("https://www.crresearch.com/wp-content/uploads/2022/08/pokemonheader.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 h1 {
@@ -34,4 +34,12 @@ button:hover {
   border-radius: 8px;
   border: 1px solid #38598b;
   padding: 50px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 350px;
+    background: rgb(54, 11, 54);
+    color: white;
+  }
 }
